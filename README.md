@@ -2,6 +2,8 @@
 
 A browser checkers game, containerized with Docker and deployed through a full CI/CD pipeline on AWS: every push to `main` is automatically built, pushed to a container registry, and rolled out to a live running service — no manual steps required.
 
+This game started as a Python checkers AI built for a university AI course. This project rebuilds that same game logic as a browser-based web app and takes it the rest of the way to production: containerized, and deployed through a fully automated cloud pipeline.
+
 **Live architecture:** GitHub → AWS CodePipeline → AWS CodeBuild → Amazon ECR → Amazon ECS (Fargate)
 
 ---
